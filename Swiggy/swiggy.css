@@ -1,0 +1,222 @@
+.ftotal{
+    height: 530px;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+}
+.box1{
+    width: 55%;
+    /* padding: 20px; */
+    padding-left: 50px;
+}
+.box2{
+width: 45%;
+}
+.nav{
+    display: flex;
+}
+.logo{
+    padding: 30px;
+}
+.sign{
+    padding: 30px;
+    margin-top: 43px;
+    margin-left: 50px;
+}
+@media (max-width:1240px){
+    .sign{
+        margin-left: 10px;
+        padding: 5px;
+        margin-top: 5px;
+    }
+    .b{
+        padding-left: 5px;
+    }
+    .logo{
+       padding-right: 10px;
+       padding-bottom: 2px;
+       padding-top: 1px;
+       margin-top: -15px;
+    }
+    .nav{
+display: block;
+    }
+}
+/* @media (max-width:1000px){
+    .a{
+        background-color: #fc8019;
+        padding: 15px;
+    }
+    .b{
+        padding: 5px 10px;
+    }
+} */
+.a{
+    padding: 40px;
+    text-decoration: none;
+}
+.b{
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+
+}
+.findfood{
+    background-color: #fc8019;
+    margin-left: -4px;
+    height: 50px;
+    border-radius: 5px;
+
+}
+input{
+    height: 50px;
+    width: 450px;
+}
+.search{
+    padding: 20px;
+}
+@media (max-width:1100px){
+    input{
+        width: 250px;
+    }
+}
+@media (max-width:710px){
+    input{
+        width: 150px;
+    }
+}
+.location{
+    font-size: 20px;
+}
+.stotal{
+    height: 400px;
+    background-color:#2b1e16;
+    width: 100%;
+    display: flex;
+}
+.post1{
+    height: 100%;
+    width: 15%;
+    color: white;
+    display: block;
+    margin-left: 15%;
+}
+.post2{
+    height: 100%;
+    width: 15%;
+    color: white;
+    margin-left: 15%;
+
+
+}
+.post3{
+    height: 100%;
+    width: 15%;
+    color: white;
+    margin-left: 15%;
+
+}
+.c1{
+    height: 500px;
+    /* background-color: yellow; */
+    width: 100%;
+    display: flex;
+}
+.c-content{
+height: 500px;
+width: 40%;
+/* background-color: red; */
+}
+.changeh{
+    padding: 20px;
+    font-size:50px;
+}
+.im1{
+    width: 200px;
+}
+@media (max-width:1200px){
+    .changeh{
+        color: red;
+        font-size: 40px;
+    }
+    .im1{
+        width: 100px;
+    }
+}
+.c-image{
+height: 500px;
+width: 60px;
+display: flex;
+}
+.ccon{
+ padding: 50px;
+}
+.footer1{
+    height: 350px;
+    background-color:black;
+    color: white;
+    width: 100%;
+    display: flex;
+}
+.pp1, .pp2, .pp3{
+    width: 25%;
+    margin-top: 50px;
+}
+.pp1{
+    padding-left: 160px;
+}
+.limg,.limg2{
+    width: 200px;
+    padding: 50px;
+}
+.limg2{
+    padding-top: 20px;
+}
+h3{
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+}
+@media (max-width:800px){
+    .pp1{
+        padding-left: 60px;
+    }
+    .limg,.limg2{
+        width: 100px;
+        padding: 40px;
+    }
+    .limg{
+        padding-top: 150px;
+    }
+}
+@media (max-width){
+    .changeh{
+        margin-top: 5px;
+        font-size:20px;
+    }
+}
+@media (max-width:700px){
+    .findfood{
+        background-color: #fc8019;
+        margin-left: -4px;
+        height: 30px;
+        width: 35%;
+        border-radius: 5px;
+        border-top: 2px;
+        border-top:1px solid black ;
+    }
+    input{
+        height: 30px;
+        width: 150px;
+        margin-left: -10%;
+    }
+    .search{
+        padding: 5%;
+    }   
+    .oreder{
+        font-size: 15px;
+    }
+}
